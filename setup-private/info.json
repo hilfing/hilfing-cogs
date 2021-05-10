@@ -1,0 +1,12 @@
+{
+    "author": ["HilFing-Real"],
+    "install_msg": "Thanks for installing setup!",
+    "name": "EmbedUtils",
+    "disabled": false,
+    "short": "Custom command for MagicBot",
+    "description": "Custom command for MagicBot.",
+    "tags": ["custom"],
+    "requirements": [],
+    "hidden": false,
+    "end_user_data_statement": "This cog does not store any type of data."
+}

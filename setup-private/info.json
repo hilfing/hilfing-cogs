@@ -1,7 +1,7 @@
 {
     "author": ["HilFing-Real"],
     "install_msg": "Thanks for installing setup!",
-    "name": "EmbedUtils",
+    "name": "setup",
     "disabled": false,
     "short": "Custom command for MagicBot",
     "description": "Custom command for MagicBot.",

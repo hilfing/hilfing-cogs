@@ -6,7 +6,7 @@ class newhelp(commands.Cog):
     """My custom cog"""
 
     @commands.command()
-      async def help(self,ctx) :
+    async def help(self,ctx) :
       def check(reaction, user):
         return reaction.message.id == msg.id and user == ctx.author #msg.id is the id of the embed sent by the bot.
 

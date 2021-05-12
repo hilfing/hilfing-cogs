@@ -17,11 +17,11 @@ class newhelp(commands.Cog):
                 reaction, _ = await bot.wait_for('reaction_add', timeout= 20.0, check=check)
                 if reaction.emoji == 'emote of choice here' and page > 0:
                     page -= 1
-                    embed = discord.Embed(title='Title Here', description=pages[page]
+                    embed = discord.Embed(title='Title Here', description=pages[page])
                     await msg.edit(embed=embed)
                 if reaction.emoji == 'emote of choice here' and page < len(pages) -1:
                     page += 1
-                    embed = discord.Embed(title='Title Here', description= pages[page]
+                    embed = discord.Embed(title='Title Here', description= pages[page])
                     await msg.edit(embed=embed)
             except asyncio.TimeoutError:
                 pass

@@ -18,7 +18,7 @@ class newhelp(commands.Cog):
           if reaction.emoji == 'emote of choice here' and page > 0:
            page -= 1
            embed = discord.Embed(title='Title Here', description=pages[page]
-           await msg.edit(embed=embed)
+          await msg.edit(embed=embed)
           if reaction.emoji == 'emote of choice here' and page < len(pages) -1:
            page += 1
            embed = discord.Embed(title='Title Here', description= pages[page]
